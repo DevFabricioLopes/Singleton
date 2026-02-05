@@ -2,18 +2,21 @@
 
 Implementação do padrão de projeto Singleton em Java.
 
-## Descrição
+## 📌 Descrição
+O padrão Singleton garante que uma classe possua apenas uma única instância durante toda a execução da aplicação, fornecendo um ponto global de acesso a essa instância.
 
-O padrão Singleton garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela.
+Este padrão é amplamente utilizado em cenários como gerenciamento de configurações, controle de conexões, logs e acesso a recursos compartilhados.
 
-## Estrutura
+## 🧠 Estrutura
+- Classe Singleton com construtor privado
+- Atributo estático para armazenar a instância
+- Método público estático para acesso à instância única
 
-- Classe Singleton com método de acesso à instância
+## ▶️ Como funciona
+A instância é criada apenas quando solicitada pela primeira vez (lazy initialization), garantindo controle total sobre a criação do objeto.
 
-## Como usar
+## 🧪 Como usar
+Clone o repositório e execute a classe de exemplo para observar que múltiplas chamadas retornam a mesma instância.
 
-Clone o repositório e execute o exemplo para ver como garantir uma única instância.
-
-## Referências
-
-- [Padrões de Projeto - GoF](https://refactoring.guru/pt-br/design-patterns/singleton)
+## 📚 Referências
+- Padrões de Projeto – GoF
